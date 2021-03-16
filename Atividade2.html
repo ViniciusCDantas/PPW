@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Minha segunda Página</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+
+<body>
+    <fieldset>
+	    <div id="idUm">
+		    <p>Lorem ipsum dolor sit amet,
+			consectetur adipisicing elit. Incidunt unde id laborum eveniet quod doloremque
+			sequi maiores ut quam, excepturi voluptates veritatis perferendis labore! Corrupti cupiditate doloremque
+			iure consequatur soluta.</p>
+	    </div>
+
+	    <div id="idDois">
+		    <p>Lorem ipsum dolor sit amet
+			consectetur adipisicing elit. Earum, nihil accusantium perspiciatis iusto tenetur,
+			suscipit quis officiis fugit, quidem tempora veritatis fuga. Minus vero nemo dolorem, ad quis provident
+			eligendi.</p>
+	    </div>
+
+	    <div id="idTres">
+		    <a href="http://www.facebook.com/" target="_blanck">FACEBOOK</a>
+	    </div>
+
+    	<figure>
+	    	<a href="https://www.linkedin.com/in/vinicius-carvalho-dantas-519527105/" target="_blanck">
+			    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFTSzRBfcNyAA/profile-displayphoto-shrink_400_400/0/1599164005780?e=1620864000&v=beta&t=VzzXTWX12yjTozFotbPmLZ5pULu3G4O_3KlOlaNnq-I"
+			    	width="480" height="480">
+			    <figcaption>Imagem de Perfil Linkedin</figcaption>
+	    	</a>
+	    </figure>
+    </fieldset>
+    <br>
+    <div id="idQuatro">
+        <form action="http://paginadestino.php" method="get">
+            <fieldset>
+                <legend><b>Dados Pessoais</b></legend>
+                <p><label for="nome"><b>Nome: </b></label>
+                    <input type="text" size="50" maxlength="50">
+                </p>
+                <p>
+                    <label for="mail"><b>E-mail: </b></label>
+                    <input type="text" size="40" maxlength="40">
+    
+                </p>
+                <p>
+                    <label for="fone"><b>Telefone: </b></label>
+                    <input type="tel" size="11" maxlength="11">
+                </p>
+                <p>
+                    <label for="profissao"><b>Profissão: </b></label>
+                    <select name="profissao">
+                        <option value="adm">Administrador</option>
+                        <option value="adv">Advogado</option>
+                        <option value="mat">Matemático</option>
+                        <option value="prof">Professor</option>
+                        <option value="sis">Analista de Sistemas</option>
+                        <option value="med">Médico</option>
+                        </select>
+                </p>
+                   
+                <fieldset>
+                    <legend><b> Sexo </b></legend>
+                    <input type="radio" name="rdSexo" id="" value="FEMININO">Feminino
+                    <input type="radio" name="rdSexo" id="" value="MASCULINO">Masculino
+    
+                </fieldset>
+    
+            </fieldset>
+          
+        </form>
+    </div>
+    <br>
+    <div>
+        <button type="submit">Enviar</button>
+    </div>
+</body>
+
+</html>

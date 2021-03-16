@@ -1,0 +1,36 @@
+#idUm {
+    margin: auto;
+    background-color: blue;
+    color: aliceblue;
+    text-align: justify; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large; 
+    margin: 40px 150px;
+    padding: 10px;                    
+}
+
+#idDois {
+    margin: auto;
+    background-color: coral;
+    color: black;
+    text-align: justify; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:xx-large; 
+    margin: 40px 150px;
+    padding: 10px;            
+}
+
+#idTres {
+    text-align: center;        
+}
+
+#idQuatro {
+    background-color: aqua;        
+}
+figure {
+    text-align: center;
+}
+
+button {
+    box-shadow: 10px 5px 5px black;
+}
